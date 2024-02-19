@@ -40,11 +40,12 @@ python3 pyQRgenerator.py --interactive
 python3 pyQRgenerator.py --data "Your data" --size "2" --logo "/path/to/logo.png" --output "output_file_name"
 ```
 
-3. **GUI**: You can use the experimental GUI, must be in the same folder as pyQRgenerator and needs ttkthemes tkinter and pillow  (installable via pip).
+3. **GUI**: You can use the experimental GUI (launch pyQRgeneratorGUI.py), must be in the same folder as pyQRgenerator and needs ttkthemes tkinter and pillow  (installable via pip).
 
 ```bash
 pip install ttkthemes tkinter pillow
 ```
+![GUI ScreenShot](https://github.com/F3de420/pyQRgenerator/blob/0.2/pyQRgeneratorGUI.png)
 
 ## Examples <a name="examples"></a>
 Here are some examples of how to use the script:
