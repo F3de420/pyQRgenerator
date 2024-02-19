@@ -31,13 +31,13 @@ You can run the script in two ways:
 1. **Interactive mode**: The script will prompt you to enter the data, size of the QR code, path of the logo file, and the output file name.
 
 ```bash
-python pyQRgenerator.py --interactive
+python3 pyQRgenerator.py --interactive
 ```
 
 2. **Command line arguments**: You can provide the data, size, logo path, and output file name as command line arguments.
 
 ```bash
-python pyQRgenerator.py --data "Your data" --size "2" --logo "/path/to/logo.png" --output "output_file_name"
+python3 pyQRgenerator.py --data "Your data" --size "2" --logo "/path/to/logo.png" --output "output_file_name"
 ```
 
 ## Examples <a name="examples"></a>
@@ -46,7 +46,7 @@ Here are some examples of how to use the script:
 - **Interactive mode**:
 
 ```bash
-python pyQRgenerator.py --interactive
+python3 pyQRgenerator.py --interactive
 ```
 Enter the data to be encoded in the QR code: ```bash Your data '''
 Enter the size of the QR code (1: Small, 2: Medium, 3: Large): ```bash 2 '''
@@ -57,7 +57,7 @@ Enter the name of the QR code file (without extension): ```bash output_file_name
 - **Command line arguments**:
 
 ```bash
-python pyQRgenerator.py --data "Your data" --size "2" --logo "/path/to/logo.png" --output "output_file_name"
+python3 pyQRgenerator.py --data "Your data" --size "2" --logo "/path/to/logo.png" --output "output_file_name"
 ```
 
 ## License <a name="license"></a>
