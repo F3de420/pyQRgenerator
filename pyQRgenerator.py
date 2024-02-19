@@ -2,12 +2,13 @@
 Script Name: pyQRgenerator
 Author: f3de420
 Version: 0.1
-Date: Today
+Date: 02.19.2024
 Sources: https://github.com/F3de420/pyQRgenerator
 """
 
 import argparse
 import qrcode
+import os
 from PIL import Image
 
 def print_script_info():
@@ -57,7 +58,7 @@ def create_qr_code(data, size, logo_path, qr_path):
 
         # Save the QR code in high quality
         img_qr.save(qr_path, "PNG", quality=100)
-
+        print(f"QR code successfully created! You can find the file here: {os.path.abspath(qr_path)}")
     except FileNotFoundError:
         print("The logo file was not found. Please check the file path and try again.")
     except IOError:
@@ -106,3 +107,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    input("Press any key to exit...")
