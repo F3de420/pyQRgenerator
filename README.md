@@ -26,7 +26,7 @@ pip install qrcode pillow
 ```
 
 ## Usage <a name="usage"></a>
-You can run the script in two ways:
+You can run the script in 3 ways:
 
 1. **Interactive mode**: The script will prompt you to enter the data, size of the QR code, path of the logo file, and the output file name.
 
@@ -39,6 +39,13 @@ python3 pyQRgenerator.py --interactive
 ```bash
 python3 pyQRgenerator.py --data "Your data" --size "2" --logo "/path/to/logo.png" --output "output_file_name"
 ```
+
+3. **GUI**: You can use the experimental GUI (launch pyQRgeneratorGUI.py), must be in the same folder as pyQRgenerator and needs ttkthemes tkinter and pillow  (installable via pip).
+
+```bash
+pip install ttkthemes tkinter pillow
+```
+![GUI ScreenShot](https://github.com/F3de420/pyQRgenerator/blob/0.2/pyQRgeneratorGUI.png)
 
 ## Examples <a name="examples"></a>
 Here are some examples of how to use the script:
